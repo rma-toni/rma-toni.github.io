@@ -1,5 +1,6 @@
 :root {
     --best-purple: #D536D8;
+    --light-purple: #EDB3EE;
 }
 
 body{
@@ -69,8 +70,17 @@ nav {
         margin-right: 30px;
         width: 150px;
         height: 40px;
-        border-radius: 20%;
-        border-color: var(--best-purple);
+        border: none;
+        border-radius: 8px;
+        background-color: var(--light-purple)   ;
         font-weight: 700;
+    }
+    
+    #login-box button:active{
+        background-color: var(--best-purple);
+    }
+
+    #login-box button:hover{
+        cursor: pointer;
     }
 }
