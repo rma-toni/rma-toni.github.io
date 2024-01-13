@@ -36,6 +36,10 @@ nav {
     color: var(--best-purple);
 }
 
+#login-box {
+    display: none;
+}
+
 #test-section{
     display: flex;
     flex-direction: column;
@@ -53,6 +57,20 @@ nav {
     }
 
     nav {
-        justify-content: left;
+        justify-content: space-between;
+    }
+
+    #login-box{
+        display: block;
+        justify-self: right;
+    }
+
+    #login-box button{
+        margin-right: 30px;
+        width: 150px;
+        height: 40px;
+        border-radius: 20%;
+        border-color: var(--best-purple);
+        font-weight: 700;
     }
 }
