@@ -20,6 +20,14 @@ nav {
     align-items: center;
 }
 
+#homelink{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 #box-title {
     height: 90%;
     width: auto;
