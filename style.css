@@ -31,14 +31,6 @@ body {
     height: 90%;
 }
 
-#user-img {
-    height: 85%;
-    width: 20%;
-    position: absolute;
-    right: 180;
-    top: 10%;
-}
-
 #search-input {
     display: none;
 }
@@ -92,12 +84,6 @@ p {
         justify-content: space-between;
         align-items: center;
     }
-
-    #user-img{
-        position: static;
-        margin-right:20px;
-    }
-
     #search-input {
         display: block;
         position: static;
