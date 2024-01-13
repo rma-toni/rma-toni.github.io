@@ -6,7 +6,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    height: 60px;
+    height: 8%;
     width: 100%;
     background: lightskyblue;
     display: flex;
@@ -21,33 +21,43 @@ body {
 }
 
 .titulo {
+    display: none;
     color : darkorchid;
     font-family: Arial;
 }
 
 #logo {
-    width: 100px;
-    height: 70px;
+    width: 20%;
+    height: 90%;
 }
 
-#reg-button {
-    height: 35px;
+#user-img {
+    height: 85%;
+    width: 20%;
     position: absolute;
-    right: 220px;
+    right: 180;
+    top: 10%;
 }
 
 #search-input {
-    position: absolute;
-    right: 30;
+    display: none;
 }
+
 
 #search-input::placeholder {
     text-align: center;
 }
 
+#search-img {
+    height: 80%;
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    right: 30px;
+}
 
 section {
-    margin-top: 60px;
+    margin-top: 17%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,4 +67,47 @@ section {
 p {
     margin-left: 6%;
     margin-right: 6%;
+}
+
+
+@media (orientation : landscape) {
+    .titulo {
+        display: block;
+    }
+
+    #logo {
+        width: 100px;
+        height: 70px;
+    }
+    
+    section {
+        margin-top: 5%;
+    }
+
+    #user-box{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #user-img{
+        position: static;
+        margin-right:20px;
+    }
+
+    #search-input {
+        display: block;
+        position: static;
+        width: 100%;
+        height: 30px;
+    }
+    #search-img {
+        height: 80%;
+        width: 15%;
+        position: static;
+    }
+
 }
