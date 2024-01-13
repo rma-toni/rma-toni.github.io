@@ -80,10 +80,6 @@ nav {
     justify-content: center;
 }
 
-#login-form h2{
-    font-size: 72;
-}
-
 .submit-button{
     height: 70px;
     width: 40%;
@@ -101,8 +97,8 @@ nav {
 
 #email{
     margin-top: 8px;
-    height: 70px;
-    width: 60%;
+    height: 100px;
+    width: 70%;
     background-color: var(--ultra-light-gray);
     border-radius: 8px;
     border: none;
@@ -115,10 +111,17 @@ nav {
     margin-top: 32px;
 }
 
+#login-form a{
+    font-size: xx-large;
+    margin-top: 24px;
+    text-decoration: none;
+    color: var(--best-purple);
+}
+
 #passwd{
     margin-top: 8px;
-    height: 70px;
-    width: 60%;
+    height: 100px;
+    width: 70%;
     background-color: var(--ultra-light-gray);
     border-radius: 8px;
     border: none;
