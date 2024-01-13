@@ -54,7 +54,7 @@ nav {
 }
 
 .form-container {
-    height: 100vh;
+    height: 1080px;
     width: 100%;
     display: grid;
     place-items: center;
@@ -74,7 +74,7 @@ nav {
 }
 
 .submit-button{
-    height: 5%;
+    height: 70px;
     width: 40%;
     margin-top: 56px;
     border-radius: 8px;
@@ -89,7 +89,7 @@ nav {
 }
 #email{
     margin-top: 8px;
-    height: 4%;
+    height: 70px;
     width: 60%;
     background-color: var(--ultra-light-gray);
     border-radius: 8px;
@@ -103,7 +103,7 @@ nav {
 
 #passwd{
     margin-top: 8px;
-    height: 4%;
+    height: 70px;
     width: 60%;
     background-color: var(--ultra-light-gray);
     border-radius: 8px;
