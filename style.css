@@ -1,10 +1,15 @@
+:root {
+    --best-purple: #D536D8;
+}
+
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;;
 }
 
 nav {
     position: fixed;
-    background-color: lightskyblue;
+    background-color: lightgray;
     height: 10%;
     width: 100%;
     display: flex;
@@ -14,10 +19,9 @@ nav {
 
 #box-title {
     height: 90%;
-    width: 50%;
+    width: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 #box-title img{
@@ -25,12 +29,11 @@ nav {
 }
 
 #box-title h1{
-    font-family: Arial;
     font-size: xx-large;
 }
 
 #box-title h1 span{
-    color: blueviolet;
+    color: var(--best-purple);
 }
 
 #test-section{
@@ -47,5 +50,9 @@ nav {
 @media (orientation : landscape) {
     #test-section h2{
         margin-top: 8%;
+    }
+
+    nav {
+        justify-content: left;
     }
 }
