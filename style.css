@@ -61,7 +61,7 @@ nav {
 }
 
 #test-section h2 {
-    margin-top: 300px;
+    margin-top: 230px;
 }
 
 .form-container {
@@ -135,6 +135,7 @@ nav {
     border-color: var(--best-purple);
     border-radius: 12px;
     height: 80px;
+    color: var(--best-purple);
 }
 
 @media (orientation : landscape) {
