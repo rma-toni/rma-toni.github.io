@@ -89,6 +89,7 @@ nav {
 #email-text{
     font-size: 32px;
 }
+
 #email{
     margin-top: 8px;
     height: 70px;
@@ -96,6 +97,8 @@ nav {
     background-color: var(--ultra-light-gray);
     border-radius: 8px;
     border: none;
+    text-align: center;
+    font-size: xx-large;
 }
 
 #passwd-text{
@@ -110,6 +113,8 @@ nav {
     background-color: var(--ultra-light-gray);
     border-radius: 8px;
     border: none;
+    text-align: center;
+    font-size: xx-large;
 }
 
 @media (orientation : landscape) {
