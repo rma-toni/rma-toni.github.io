@@ -41,6 +41,10 @@ body {
     height: 70%;
 }
 
+.pruebas{
+    margin: 24px 0 0;
+}
+
 @media (orientation = landscape){
     #navbar-right h1{
         display: block;
