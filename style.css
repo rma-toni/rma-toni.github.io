@@ -13,28 +13,39 @@ body {
 .navbar {
     background-color: var(--nav-black);
     height: 10vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 #navbar-right{
     display: flex;
     height: 100%;
+    width: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 #navbar-right h1{
     display: none;
 }
 
+#navbar-left{
+    display: flex;
+    align-items: center;
+}
+
 .pageicon {
     height: 100%;
+}
+.menuicon{
+    height: 70%;
 }
 
 @media (orientation = landscape){
     #navbar-right h1{
         display: block;
-        align-self: center;
         color: white;
-        font-size: 72px;
+        font-size: 2vw;
         font-weight: 300;
-        margin-left: 50px;
     }
 }
