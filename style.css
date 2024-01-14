@@ -1,10 +1,12 @@
 :root{
     --principal: #BE0DEA;
     --nav-black: #232323;
+    --primary-background: #A5A5A5;
 }
 
 body {
     margin : 0;
+    background-color: var(--primary-background);
 }
 
 .navbar {
