@@ -7,14 +7,34 @@
 body {
     margin : 0;
     background-color: var(--primary-background);
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
     background-color: var(--nav-black);
     height: 10vh;
+}
+
+#navbar-right{
     display: flex;
+    height: 100%;
+}
+
+#navbar-right h1{
+    display: none;
 }
 
 .pageicon {
     height: 100%;
+}
+
+@media (orientation = landscape){
+    #navbar-right h1{
+        display: block;
+        align-self: center;
+        color: white;
+        font-size: 72px;
+        font-weight: 300;
+        margin-left: 50px;
+    }
 }
