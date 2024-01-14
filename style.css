@@ -1,0 +1,18 @@
+:root{
+    --principal: #BE0DEA;
+    --nav-black: #232323;
+}
+
+body {
+    margin : 0;
+}
+
+.navbar {
+    background-color: var(--nav-black);
+    height: 10vh;
+    display: flex;
+}
+
+.pageicon {
+    height: 100%;
+}
