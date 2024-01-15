@@ -2,6 +2,10 @@
     --principal: #BE0DEA;
     --nav-black: #232323;
     --primary-background: #A5A5A5;
+    --total-red: #FF0000;
+    --total-green: #36FF00;
+    --light-green: #A1F38A;
+    --light-red: #FFADAD;
 }
 
 body {
@@ -42,7 +46,7 @@ body {
 }
 .menuicon{
     height: 70%;
-    padding-right: 60px;
+    padding-right: 10px;
 }
 
 article {
@@ -65,6 +69,23 @@ button {
     padding: 20px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 15px;
+}
+
+.addButton {
+    border-style:solid;
+    border-color: var(--total-green);
+    border-width: 4px;
+    background-color: var(--light-green);
+
+}
+
+.rmButton {
+    
+    border-style:solid;
+    border-color: var(--total-red);
+    border-width: 4px;
+    background-color: var(--light-red);
 }
 
 

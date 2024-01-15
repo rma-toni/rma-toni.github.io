@@ -23,17 +23,37 @@
     <article>
         <h2>EL CONTADOR DEL CHASQUE</h2>
         <div id="timer">00:00:00</div>
-        <button onclick="startTimer()">Iniciar</button>
-        <button onclick="stopTimer()">Detener</button>
-        <button onclick="resetTimer()">Reiniciar</button>
-        <button onclick="addTime1Min()">Añadir 1 Minuto</button>
-        <button onclick="addTime1H()">Añadir 1 Hora</button>
-
+        <div>
+            <button onclick="startTimer()">Iniciar</button>
+            <button onclick="stopTimer()">Detener</button>
+            <button onclick="resetTimer()">Reiniciar</button>
+        </div>
+        <div>
+            <button class = "addButton" onclick="addTime1Min()">Añadir 1 Minuto</button>
+            <button class = "addButton" onclick="addTime1H()">Añadir 1 Hora</button>
+            <button class = "rmButton" onclick="rmTime1Min()">Quitar 1 Minuto</button>
+            <button class = "rmButton" onclick="rmTime1H()">Quitar 1 Hora</button>
+        </div>
         <script>
     let timer;
     let seconds = 0;
     let minutes = 0;
     let hours = 0;
+
+    function rmTime1H(){
+        hours--;
+        updateTimerDisplay();
+    }
+
+    function rmTime1Min(){
+        if(minutes==0){
+            minutes = 59;
+            hours --;
+        }else{
+            minutes--;
+        }
+        updateTimerDisplay();
+    }
 
     function addTime1Min(){
         if(minutes == 59){
