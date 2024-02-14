@@ -1,5 +1,6 @@
 :root{
     --nav-black: #232323;
+    --search-text: #646464;
 }
 
 .navbar {
@@ -20,13 +21,21 @@
     justify-content: center;
 }
 
-#navbar-right h1{
-    display: none;
-}
-
 #navbar-left{
     display: flex;
     align-items: center;
+}
+
+#navbar-center {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-center input{
+    height: 4vh;
+    text-align: center;
+    font-size: larger;
+    color: var(--search-text);
 }
 
 .pageicon {
@@ -35,4 +44,11 @@
 .menuicon{
     height: 70%;
     padding-right: 10px;
+}
+
+
+@media (orientation: landscape) {
+    #navbar-center input{
+        width: 30vh;
+    }
 }
